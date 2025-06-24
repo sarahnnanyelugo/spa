@@ -1,0 +1,342 @@
+.hero-outer{
+    position:relative;
+    img{
+        @media screen and (max-width:820px){
+            object-fit:cover;
+            height:400px;
+        }
+    }
+    .hero-overlay{
+        position:absolute;
+        height:100%;
+        width:100%;
+        left:0;
+        top:0;
+        color: #fff;
+        padding-top:200px;
+        @media screen and (max-width:820px) {
+            padding-top: 50px;
+            }
+        background:rgba(0, 0, 0, 0.6);
+        h1{
+            color:#fff;
+            font-size:60px;
+            line-height:72px;
+            @media screen and (max-width:820px) {
+                font-size: 30px;
+                line-height: 35px;
+                }
+
+        }
+
+    }
+}
+.first-intro{
+    margin-top: 150px;
+    @media screen and (max-width:820px) {
+        margin-top: 50px;
+        }
+    h6{
+        font-size:14px;
+        font-family: redditRegular;
+        
+    }
+    h4{
+        margin-top:30px;
+    }
+    li{
+        line-height:35px;
+    }
+}
+.stakeholders{
+    background:#F6F7F9;
+    padding-top:100px;
+    margin-top:100px;
+    margin-bottom:100px;
+    padding-bottom:100px;
+    @media screen and (max-width:820px) {
+            margin-top: 30px;
+            margin-bottom: 30px;
+            padding-top: 30px;
+        }
+    h6 {
+            font-size: 14px;
+            font-family: redditRegular;
+    margin-bottom:20px;
+        }
+}
+.steps{
+    margin-top:50px;
+    @media screen and (max-width:820px) {
+        margin-top: 20px;
+        }
+   p{
+    margin-top:10px;
+   }
+   .col{
+    padding:20px 30px;
+   }
+}
+.last-quote{
+    margin-top:40px;
+    h1{
+      font-size:100px;  
+    }
+    p{
+        margin-top:30px;
+    }
+}
+.global-standard{
+    h5{
+        margin-top:80px;
+    }
+    li{
+        line-height:38px;
+    }
+}
+.methodology{
+ 
+   .method{
+    border-radius: 15px;
+        padding:42px 95px 15px 0;
+        margin-bottom: 20px;
+        transition: opacity 1s ease-in-out;
+        @media screen and (max-width:820px) {
+            padding: 42px 15px 15px 0;
+            }
+        img{
+            
+            height:138px;
+            object-fit:contain;
+            @media screen and (max-width:820px) {
+                    height: auto;
+                margin-bottom:30px; }
+        }
+        
+   }
+    
+}
+.outer{
+    // padding-left:20px;
+}
+.highlight{
+    background:#CEF0FF;
+    border:solid 1px #0CB5FF;
+}
+.choices{
+    background:#F6F7F9;
+    padding-top:100px;
+    padding-bottom:100px;
+    margin-bottom:100px;
+    .blk1{
+        height:300px;
+        background:red;
+        border:solid 4px blue;
+        border-radius:16px;
+        
+    }
+    .inner-circle{
+        height:400px;
+        width:400px;
+        background:#fff;
+        border:solid 4px blue;
+        margin-top:-500px;
+        position:relative;
+        border-radius:100%;
+        z-index:1;
+        
+    }
+    
+}
+.spa-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 800px);
+    grid-template-rows: repeat(2, 300px);
+    gap: 2rem;
+    justify-content: center;
+    position: relative;
+    margin-top: 5rem;
+    @media screen and (max-width:820px) {
+        grid-template-columns: repeat(2, 180px);
+            grid-template-rows: repeat(2, 100px);
+        }
+}
+
+/* Common card style */
+.card {
+    position: relative;
+    border: 2px solid #00aaff;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    z-index: 1;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+/* Quarter circle mask to simulate the chipped corners */
+.card::after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid #00aaff;
+    border-radius: 50%;
+    z-index: 2;
+    @media screen and (max-width:820px) {
+            width: 80px;
+            height: 80px;
+        }
+}
+
+/* Each card has its notch in a different corner */
+.top-left {
+    background-color: #fff7c7;
+}
+
+.top-left::after {
+    bottom: -50px;
+    right: -50px;
+}
+
+.top-right {
+    background-color: #c9cdff;
+}
+
+.top-right::after {
+    bottom: -50px;
+    left: -50px;
+}
+
+.bottom-left {
+    background-color: #ffc6c6;
+}
+
+.bottom-left::after {
+    top: -50px;
+    right: -50px;
+}
+
+.bottom-right {
+    background-color: #c3f5d4;
+}
+
+.bottom-right::after {
+    top: -50px;
+    left: -50px;
+}
+
+/* Central SPA circle */
+.spa-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background: white;
+    // border:solid 1px blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #00aaff;
+    font-size: 24px;
+    z-index: 3;
+    @media screen and (max-width:820px) {
+        width: 100px;
+            height: 100px;
+        }
+}
+
+.change{
+   background:#F6F7F9;
+   padding-top:100px;
+   padding-bottom:100px;
+   margin-top:100px;
+   .changes{
+    height:200px;
+    margin-top:80px;
+    border-radius:20px;
+    background:#fff;
+    padding:30px ;
+    border:solid 1px #CEF0FF;
+    @media screen and (max-width:820px){
+        margin-top: 20px;
+    }
+    p{
+        color:#777777;
+       width:75%;
+       margin-top:30px;
+       margin-bottom:20px;
+    }
+    h3{
+        font-size:20px;
+    }
+    a{
+        color:#191919;
+        font-size:14px;
+        text-decoration:none;
+        &:hover{
+            text-decoration: underline;
+            color:rgb(34, 136, 180);
+        }
+    }
+   }
+}
+
+
+
+.voice{
+    padding-top:100px;
+    padding-bottom:100px;
+    .voices{
+        margin-top:40px;
+        border:solid 1px #E8E8E8;
+        border-radius:10px;
+        padding:40px 40px;
+        height:210px;
+        @media screen and (max-width:820px){
+            height:fit-content;
+        }
+        img{margin-right:20px;
+            height:52px;
+            width:52px;
+        }
+        p{
+            width:85%;
+        }
+        h5{
+            margin-top:10px;
+        }
+        small{
+            color:#A4A4A4
+        }
+    }
+}
+
+.faqs{
+    .faq-div{
+        margin-top:90px;
+    }
+    background:#F6F7F9;
+    padding-top:100px;
+    padding-bottom:100px;
+    .faq-row{
+        border-top:solid 1px #D2D2D2;
+        padding-top:30px;
+        padding-bottom:30px;
+        h4{font-size:18px;}
+    }
+    h2{
+        margin-top:50px;
+    }
+}
+
+.alpha-div{
+    @media screen and (max-width:820px) {
+        // box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+        padding:10px;
+    }
+}

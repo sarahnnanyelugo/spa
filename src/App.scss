@@ -1,0 +1,27 @@
+@font-face {
+  font-family: redditBold;
+  src: url(./assets/fonts/reddit/RedditBold.ttf);
+}
+@font-face {
+  font-family: redditRegular;
+  src: url(./assets/fonts/reddit/redditRegular.ttf);
+}
+@font-face {
+  font-family: redditLight;
+  src: url(./assets/fonts/reddit/redditLight.ttf);
+}
+@font-face {
+  font-family: redditSemiBold;
+  src: url(./assets/fonts/reddit/redditSemiBold.ttf);
+}
+
+
+h1, h2,h3,h4,h5,h6{
+  font-family: redditBold;
+}
+p, li{
+  font-family: redditRegular;
+}
+a{
+  font-family: redditSemiBold;
+}
