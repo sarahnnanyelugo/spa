@@ -108,39 +108,72 @@ export const Home = () => {
                 <p>4 Stakeholder Value Blocks:</p>
               </div>
             </center>
-            {/* <div className="white-bg row row-cols-2 row-cols-lg-2 g-2 g-lg-5 col-md-10 offset-md-1">
-          <div className="col">
-            {" "}
-            <div className="blk1"></div>
-          </div>
-          <div className="col">
-            {" "}
-            <div className="blk1"></div>
-          </div>
-          <div className="col">
-            {" "}
-            <div className="blk1"></div>
-          </div>
-          <div className="col">
-            {" "}
-            <div className="blk1"></div>
-          </div>
-        </div>
-        <center>
-          {" "}
-          <div className="inner-circle"></div>
-        </center> */}
 
             <div className="spa-grid col-md-10 offset-md-1">
               <div className="card top-left col-md-12">
                 <h3>🎓 Students</h3>
-                <p>...</p>
+                <p className="col-md-10 col-12">
+                  This initiative fosters a culture of academic excellence by
+                  recognizing student achievement, promoting healthy
+                  competition, and encouraging continuous improvement across all
+                  levels of learning. By spotlighting progress and celebrating
+                  success, it motivates learners to aim higher and stay engaged
+                  in their educational journey.
+                </p>
+                <div className="d-flex">
+                  <div style={{ flexGrow: 1 }} />
+                  <div className="clipped1 col-md-4 " />
+                </div>
               </div>
-              <div className="card top-right col-md-12">...</div>
-              <div className="card bottom-left col-md-12">...</div>
-              <div className="card bottom-right col-md-12">...</div>
-              <div className="spa-circle col-md-12">SPA</div>
+              <div className="card top-right col-md-12">
+                <h3>🏫 Schools & Educators</h3>
+                <p className="col-md-10 offset-md-2">
+                  Gain access to rich performance insights that empower schools
+                  and educators to make data-driven decisions informing
+                  strategic planning, guiding curriculum refinement, and
+                  enhancing instructional methods to improve learning outcomes
+                  and student success.
+                </p>
+                <div className="d-flex">
+                  {/* <div style={{ flexGrow: 1 }} /> */}
+                  <div className="clipped2 col-md-4 " />
+                </div>
+              </div>
+              <div className="card bottom-left col-md-12">
+                <div className="d-flex">
+                  <div style={{ flexGrow: 1 }} />
+                  <div className="clipped3 col-md-4 " />
+                </div>
+                <h3>👪 Parents & Guardians</h3>
+                <p className="col-md-10 ">
+                  Empower parents and guardians to make informed school choices
+                  grounded in reliable, data-backed indicators of academic
+                  quality rather than relying on word-of-mouth, outdated
+                  rankings, or reputation alone.
+                </p>
+              </div>
+              <div className="card bottom-right col-md-12">
+                <div className="d-flex">
+                  {/* <div style={{ flexGrow: 1 }} /> */}
+                  <div className="clipped4 col-md-4 " />
+                </div>
+                <h3>🏛️ Policy Leaders </h3>
+                <p className="col-md-10 offset-md-2">
+                  Leverage detailed, disaggregated data at both state and
+                  national levels to shape evidence-based education reform,
+                  guide equitable distribution of resources, and address
+                  disparities across the school system—ensuring that every
+                  learner has a fair opportunity to succeed.
+                </p>
+              </div>
+              {/* <div className="spa-circle col-md-12">SPA</div> */}
             </div>
+            <center>
+              {" "}
+              <div className="spa-circled ">
+                <h1>SPA</h1>
+              </div>
+            </center>
           </div>
 
           <div className="how-it-works col-md-10 offset-md-1">
