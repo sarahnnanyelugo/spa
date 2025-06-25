@@ -3,6 +3,9 @@ footer{
     padding-top:100px;
     padding-bottom:100px;
     margin-top:100px;
+    @media screen and (max-width:820px){
+        padding:40px 10px;
+    }
     .anchor-links{
         flex-grow:1;
        
