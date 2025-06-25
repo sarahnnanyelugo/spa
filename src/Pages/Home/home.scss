@@ -1,3 +1,6 @@
+$height: 190px;
+
+
 .hero-outer{
     position:relative;
     img{
@@ -171,107 +174,69 @@ margin-top:20px;
 }
 
 
-// .card::after {
-//     content: '';
-//     position: absolute;
-//     width: 240px;
-//     height: 240px;
-//     background: #F6F7F9;
-//     border: 1px solid #0CB5FF;
-//     border-radius: 50%;
-//     z-index: 2;
-//     @media screen and (max-width:820px) {
-//             width: 80px;
-//             height: 80px;
-//         }
-// }
-
-// .spa-circle {
-//     position: absolute;
-//     top: 50%;
-//     left: 50%;
-//     transform: translate(-50%, -50%);
-//     width: 355px;
-//     height: 355px;
-//     border-radius: 50%;
-//     background: #F6F7F9;
-   
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-//     font-weight: bold;
-//     color: #0CB5FF;
-//     font-size: 24px;
-//     z-index: 3;
-
-//     @media screen and (max-width:820px) {
-//         width: 100px;
-//         height: 100px;
-//     }
-// }
 
 
 .clipped1{
-    height:170px;
+    height:$height;
    
-    margin-top:-130px;
+    margin-top:-152px;
     border-top-left-radius:100%;
     background: #F6F7F9;
     border-left: 2px solid #0CB5FF;
     position:relative;
     z-index:20;
-    margin-right:-185px !important;
+    margin-right:-182px !important;
     @media screen and (max-width:820px) {
             display: none;
     
         }
 }
 .clipped2{
-    height:170px;
+    height:$height;
    
-    margin-top:-105px;
+    margin-top:-128px;
     border-top-right-radius:100%;
     background: #F6F7F9;
     border-right: 2px solid #0CB5FF;
     position:relative;
     z-index:20;
-    margin-left:-185px !important;
+    margin-left:-182px !important;
     @media screen and (max-width:820px) {
             display: none;
     
         }
 }
 .clipped3{
-    height:180px;
+    height:$height;
    
-    margin-top:-42px;
+    margin-top:-41px;
     border-bottom-left-radius:100%;
     background: #F6F7F9;
     border-left: 2px solid #0CB5FF;
     position:relative;
     z-index:20;
-    margin-right:-185px !important;
+    margin-right:-182px !important;
     @media screen and (max-width:820px) {
             display: none;
     
         }
 }.clipped4{
-    height:180px;
+    height:$height;
    
-    margin-top:-43px;
+    margin-top:-41px;
     border-bottom-right-radius:100%;
     background: #F6F7F9;
     border-right: 2px solid #0CB5FF;
     position:relative;
     z-index:20;
-    margin-left:-185px !important;
+    margin-left:-182px !important;
     @media screen and (max-width:820px) {
             display: none;
     
         }
 }
 .spa-circled{
-    margin-top:-330px;
+    margin-top:-340px;
     position:relative;
     z-index:50;
     color:#0CB5FF;
